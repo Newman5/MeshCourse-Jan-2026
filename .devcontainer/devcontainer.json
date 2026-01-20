@@ -1,9 +1,9 @@
 {
   "name": "Cardano Mesh Course Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-22-bullseye",
   "features": {
     "ghcr.io/devcontainers/features/node": {
-      "version": "18"
+      "version": "22"
     }
   },
   "customizations": {
