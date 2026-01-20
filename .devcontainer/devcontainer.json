@@ -1,11 +1,6 @@
 {
   "name": "Cardano Mesh Course Dev Container",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:0-22-bullseye",
-  "features": {
-    "ghcr.io/devcontainers/features/node": {
-      "version": "22"
-    }
-  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -15,6 +10,6 @@
       ]
     }
   },
-  "postCreateCommand": "npm install",
+  "postCreateCommand": "node -v && npm -v && npm install",
   "remoteUser": "node"
 }
